@@ -1,0 +1,166 @@
+*{
+    padding:0;
+    margin: 0;
+    font-family:'Raleway', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+.logo-pic{
+    height: 4.8rem;
+    width: 15rem;
+    padding-left: .5rem;
+}
+
+/*-----------------------------------Header------------------------------------*/
+header{
+    position: fixed;
+    width: 100%;
+    top:0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0,0,0,.8);
+    backdrop-filter:blur(2rem) ;
+
+
+    
+}
+
+.nav-link{
+    font-size: 1.4rem;
+    color: rgb(249, 249, 248);
+    padding:0 1.3rem;
+    transition: opacity 1.5s;
+    margin-top: 1.2rem;
+
+
+
+}
+
+.nav-link:hover{
+    opacity:.7 ;
+}
+
+.navbar a:hover{
+    border-bottom:2px solid white;
+   
+
+}
+
+.navbar{
+    display: flex;
+    
+}
+
+.h-icons{
+    padding: 10px 22px;
+    background: grey;
+    border-radius: 5rem;
+    color: white;
+    margin-right: 15px;
+    margin-left: 8px;
+
+}
+
+.h-icons a{
+    color: white;
+}
+
+#menu-icon{
+    font-size: 32px;
+    color: white;
+    z-index: 1001;
+    cursor: pointer;
+    display: none;
+}
+
+/*-----------------------------------Header------------------------------------*/
+
+
+/*-----------------------------------Home------------------------------------*/
+
+section{
+    padding: 50px 6% 80px;
+}
+
+.home{
+    margin-top: 2rem;
+    height: 88vh;
+    width:100%;
+    position: relative;
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    align-items: center;
+    gap: 1rem;
+    background-image:url(https://i.postimg.cc/7ZjMxbyy/Woodbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.hm-pizza{
+    height:100%;
+    width: 100%;
+   
+   
+   
+
+
+}
+
+
+.home-text h1{
+    font-size: 4.5rem;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+.home-text p{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: white;
+    line-height: 32px;
+    margin-bottom: 2.3rem;
+}
+
+.btn{
+    display: inline-block;
+    padding: 14px 26px;
+    background: grey;
+    color: white;
+    font-size: 15px;
+    font-weight:600 ;
+    border-radius: 5rem;
+    transition: all .40s ease;
+}
+
+.btn:hover{
+    letter-spacing: 1px;
+
+}
+
+/*-----------------------------------Home------------------------------------*/
+
+
+
+/*-----------------------------------Ingredients------------------------------------*/
+
+.container{
+margin-top: 5px;
+}
+
+.main-text h2{
+    font-size: 2.6rem;
+    margin-bottom: 10px;
+}
+
+.main-text p{
+    font-size: 1.1rem;
+    font-weight:500 ;
+    line-height: 32px;
+}
