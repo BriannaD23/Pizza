@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0,  minimum-scale=1">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,7 +17,7 @@
     
 <!----------------------------------header-section--------------------------------------------> 
     <header>
-       <a href="#" class="logo"><img class="logo-pic" src="logo.png"></a> 
+       <a href="#" class="logo"><img class="logo-pic" src="./img/logo.png"></a> 
        <ul class="navbar"> 
         <li><a href="#Home" class="nav-link"> Home</a></li>
         <li><a href="#About" class="nav-link"> About</a></li>
@@ -47,7 +47,7 @@
         </div>
 
         <div class="home-img">
-            <img class="hm-pizza" src="HomeimgPizza.png" alt="home-img">
+            <img class="hm-pizza" src="./img/HomeimgPizza.png" alt="home-img">
         </div>
     </section>
 
@@ -57,72 +57,236 @@
 <!----------------------------------home-section--------------------------------------------> 
     
    
-<!----------------------------------container-section--------------------------------------------> 
-<section class="container">
-    <div class="main-text" >
-        <h2> Ingredients </h2>
-        <p> The best of the Best for you!</p>
+<!----------------------------------container-section-Ingredients--------------------------------------------> 
+    <section class="container">
+        <div class="main-text" >
+            <h2> Ingredients </h2>
+            <p> The best of the best for you!</p>
+        </div>
+        <div class="container-box">
+            <div class="c-mainbox">
+                <div class="container-img">
+                    <img src="./img/dough.png" alt="box1">
+
+                </div>
+                <div class="container text">
+                    <p> Delicate Dough</p>
+                </div>
+
+            </div>
+            <div class="c-mainbox">
+                <div class="container-img">
+                    <img src="./img/tomato.png" alt="'box2">
+
+                </div>
+                <div class="container text">
+                    <p> Fresh Tomatoes </p>
+                </div>
+            </div>
+
+            <div class="c-mainbox">
+                <div class="container-img">
+                    <img src="./img/cheese.png" alt="'box3">
+
+                </div>
+                <div class="container text">
+                    <p> Cheese </p>
+                </div>
+            </div>
+
+            <div class="c-mainbox">
+                <div class="container-img">
+                    <img src="./img/sausage.png" alt="'box4">
+
+                </div>
+                <div class="container-text">
+                    <p> Italian Sausage</p>
+                </div>
+            </div>
+
+        </div>
+    </section>       
+      
+<!----------------------------------container-section-------------------------------------------->     
+    
+<!----------------------------------About-section-------------------------------------------->  
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./img/Second-pizza.png">
+        </div>
+        <div class="about-text">
+            <h2> The Delicious Food <br> for a Good Mood </h2>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, veniam odio placeat maxime repudiandae pariatur, voluptatum nemo neque enim nisi voluptatibus quae aperiam corporis excepturi asperiores fugit. Dolor, dicta doloribus!</p>
+            <a href="" class="btn"> Choose A Pizza</a>
+        </div>
+
+    </section>
+    
+<!----------------------------------About-section-------------------------------------------->  
+
+<!----------------------------------Menu-section-------------------------------------------->  
+    <section class="menu" id="menu">
+        <div class="main-text">
+            <h2>Most Popular Pizza</h2>
+            <p> We have selected for you<br> the most esquisite tastes around the world</p>
+        </div>
+
+        <div class="menu-content">
+            <div class="row">
+                <img src="./img/ItalianDream.png" alt="main-product1">
+                <div class="menu-text">
+                    <div class="menu-left">
+                        <h4> Italian Dream</h4>
+                    </div>
+
+                    <div class="menu-right">
+                        <h5>$17.00</h5>
+                    </div>
+                </div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <div class="star">
+                    <a href="#"><i class='bx bxs-star'></i></a>
+                    <a href="#"><i class='bx bxs-star'></i></a>
+                    <a href="#"><i class='bx bxs-star'></i></a>
+                    <a href="#"><i class='bx bxs-star'></i></a>
+                    <a href="#"><i class='bx bxs-star'></i></a>
+                </div>
+            </div>
+
+            <div class="row">
+                <img src="./img/montanara.png" alt="main-product2">
+                <div class="menu-text">
+                    <div class="menu-left">
+                        <h4> Montanara</h4>
+                    </div>
+
+                    <div class="menu-right">
+                        <h5>$17.00</h5>
+                    </div>
+                </div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <div class="star">
+                    <a href="#"><i class='bx bxs-star'></i></a>
+                    <a href="#"><i class='bx bxs-star'></i></a>
+                    <a href="#"><i class='bx bxs-star'></i></a>
+                    <a href="#"><i class='bx bxs-star'></i></a>
+                    <a href="#"><i class='bx bxs-star'></i></a>
+                </div>
+            </div>
+
+            <div class="row">
+                <img src="./img/TangyBBq.png" alt="main-product3">
+                <div class="menu-text">
+                    <div class="menu-left">
+                        <h4> Tangy Bbq</h4>
+                    </div>
+
+                    <div class="menu-right">
+                        <h5>$17.00</h5>
+                    </div>
+                </div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <div class="star">
+                    <a href="#"><i class='bx bxs-star'></i></a>
+                    <a href="#"><i class='bx bxs-star'></i></a>
+                    <a href="#"><i class='bx bxs-star'></i></a>
+                    <a href="#"><i class='bx bxs-star'></i></a>
+                    <a href="#"><i class='bx bxs-star'></i></a>
+                </div>
+            </div>
+
+            <div class="row">
+                <img src="./img/pepperoni.png" alt="main-product4">
+                <div class="menu-text">
+                    <div class="menu-left">
+                        <h4> Pepperoni</h4>
+                    </div>
+
+                    <div class="menu-right">
+                        <h5>$17.00</h5>
+                    </div>
+                </div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <div class="star">
+                    <a href="#"><i class='bx bxs-star'></i></a>
+                    <a href="#"><i class='bx bxs-star'></i></a>
+                    <a href="#"><i class='bx bxs-star'></i></a>
+                    <a href="#"><i class='bx bxs-star'></i></a>
+                    <a href="#"><i class='bx bxs-star'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!----------------------------------Menu-section-------------------------------------------->  
+    
+
+<!----------------------------------Contact-section-------------------------------------------->  
+    <section class="contact" id="contact">
+        <div class="main-contact">
+            <div class="contact-content">
+                <h4>Services</h4>
+                <li><a href="#Home"> Home</a></li>
+                <li><a href="#About"> About</a></li>
+                <li><a href="Menu"> Menu</a></li>
+                <li><a href="Contact">Contact </a></li>
+
+            </div>
+
+            <div class="contact-content">
+                <h4> Delivery</h4>
+                <li><a href="#Home"> UberEats</a></li>
+                <li><a href="#About"> DoorDash</a></li>
+                <li><a href="Menu"> ChowNow</a></li>
+                <li><a href="Contact">Toast TakeOut </a></li>
+
+            </div>
+
+            <div class="contact-content">
+                <h4> Contact</h4>
+                <li><a href="#Home"> Contact Us</a></li>
+                <li><a href="#About"> Press Center</a></li>
+                <li><a href="Menu">   Careers</a></li>
+                <li><a href="Contact"> FAQ </a></li>
+
+            </div>
+
+            <div class="contact-content">
+                <h4> Follow Us</h4>
+                <li><a href="#Home"> Tiktok</a></li>
+                <li><a href="#About"> Twitter</a></li>
+                <li><a href="Menu"> Facebook</a></li>
+                <li><a href="Contact"> Instagram </a></li>
+
+            </div>
+        </div>
+    </section>
+
+    <div class="last-text">
+        <p> Developed 2023 by Brianna Duncan</p>
     </div>
-    <div class="container-box">
-        <div class="c-mainbox">
-            <div class="container-img">
-                <img src="" alt="'box1">
 
-            </div>
-            <div class="container text">
-                <p> Delicate Dough</p>
-            </div>
+<!----------------------------------Scroll-Top-------------------------------------------->  
+    <a href="#Home" class="scroll-top">
+        <i class='bx bxs-up-arrow-circle'></i>
+    </a>
 
-        </div>
-        <div class="c-mainbox">
-            <div class="container-img">
-                <img src="" alt="'box2">
 
-            </div>
-            <div class="container text">
-                <p> Fresh Tomatoes </p>
-            </div>
-        </div>
+<!----------------------------------Scroll-Top-------------------------------------------->  
 
-        <div class="c-mainbox">
-            <div class="container-img">
-                <img src="" alt="'box3">
 
-            </div>
-            <div class="container text">
-                <p> Cheese </p>
-            </div>
-        </div>
 
-        <div class="c-mainbox">
-            <div class="container-img">
-                <img src="" alt="'box4">
 
-            </div>
-            <div class="container text">
-                <p> Italian Sausage</p>
-            </div>
-        </div>
 
-    </div>
-</section>   
+<!----------------------------------custom js link-------------------------------------------->  
+
+
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<!----------------------------------custom js link-------------------------------------------->  
+
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <script type= "text/javascript" src= "main.js"></script>
+    <script type= "text/javascript" src= "js/main.js"></script>
     
 </body>
 </html>
